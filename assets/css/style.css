@@ -20,9 +20,7 @@ body {
     font-size: 48px;
 }
 
-.header h1 .seo {
-    color: #d9dcd6;
-}
+/* Deleted .header h1 seo code because it loosk ugly on the page */
 
 .header div {
     padding-top: 15px;
@@ -69,13 +67,15 @@ p {
     margin-left: 25px;
 }
 
-.content {
+main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+/* replaced .content class with main sem element */
+
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -86,19 +86,19 @@ p {
     background-color: #2589bd;
 }
 
+/* Deleted benefits tag and targeted the aside sem element */
+
 .benefit {
-    margin-bottom: 32px;
+    margin-bottom: 42px;
     color: #ffffff;
+    text-align: center;
 } 
 
-/* Delected redunated "benefit-..." code */
+/* Deleted redunated "benefit-..." code */
 
-.benefit h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
+/* Deleted redunated "benefit h3" code */
 
-/* Delected redunated "benefit-...h3" code */
+/* Deleted redunated "benefit-...h3" code */
 
 .benefit img {
     display: block;
@@ -106,63 +106,34 @@ p {
     max-width: 150px;
 }
 
-/* Delected redunated "benefit-... img" code */
+/* Deleted redunated "benefit-... img" code */
 
-.search-engine-optimization {
+article {
+    margin-top: 20px;
     margin-bottom: 20px;
-    padding: 50px;
+    padding: 50px ;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/* Deleted redunated classes and replaced with above article sem element */
 
 img {
     max-height: 200px;
 }
 
-/* Delected redunated img code */
+/* Deleted redunated img code */
 
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
+/* Deleted deleted useless ...h2 classes */
 
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    font-size: 13px;
 }
 
-.footer h2 {
-    font-size: 20px;
-}
+/* Deleted redunated .footer h2 class and target the entire footer above */
