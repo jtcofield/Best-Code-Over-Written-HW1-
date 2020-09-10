@@ -88,25 +88,22 @@ aside {
 
 /* Deleted benefits tag and targeted the aside sem element */
 
-.benefit {
+section {
     margin-bottom: 42px;
     color: #ffffff;
     text-align: center;
 } 
 
-/* Deleted redunated "benefit-..." code */
+/* replaced redunated "benefit-..." code w/ section sem element */
 
-/* Deleted redunated "benefit h3" code */
 
-/* Deleted redunated "benefit-...h3" code */
-
-.benefit img {
+section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-/* Deleted redunated "benefit-... img" code */
+/* replaced redunated "benefit-... img" code w/ section sim element */
 
 article {
     margin-top: 20px;
